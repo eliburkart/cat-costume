@@ -1,15 +1,14 @@
+/*CAT COSTUME PROJECT  */
 body {
   margin: 0;
 }
 
-
-
-
-
 .header_image {
   background-image: image("images/kats-hero-mobile.jpg");
 }
-.footer {
+.img-circle {
+  border-radius: 75%;
+}
 
 h1 {
   font-family: 'PT Sans Narrow', sans-serif;
@@ -22,6 +21,7 @@ h2 {
   color: #00897f ;
   text-transform: uppercase;
 }
+
 h3 {
   font-family: 'PT Serif', serif;
   font-size: 1em;
@@ -43,19 +43,33 @@ a {
 nav h1 {
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.5em;
-  color: #323232;
-  padding: 80px;
+  color: #323232;}
 
+.menu
+{
+width: 300px;
+display: inline-block;
 }
+
+.container {
+  display: inline-block;
+}
+
+
+
+
 nav p {
   font-family: 'PT Sans', sans-serif;
   font-size: .9em;
   color: #323232;
 }
 footer h1 {
+  color: #323232;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 1.25em;
-  color: #323232;
+  text-align: center;
+  margin-bottom: 120px;
+  background-color: #00897f;
 }
 
 
